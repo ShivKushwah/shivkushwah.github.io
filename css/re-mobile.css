@@ -1,0 +1,40 @@
+/*  THINGS THAT SHOW ON WEB*/
+@media (min-width: 1024px) {
+  .web-only {
+    display: block;
+  }
+
+  .mobile-only {
+    display: none;
+  }
+}
+
+/*  THINGS THAT SHOW ON MOBILE*/
+@media (max-width: 1024px) {
+  .web-only {
+    display: none;
+  }
+
+  .mobile-only {
+    display: block;
+  }
+  #home {
+    background-size: auto 100vh;
+    background-image: url(../img/re_main.jpg);
+    background-position: 45% 0%;
+  }
+
+
+  .v-custom2 {
+    position: absolute;
+    width: 100%;
+    top: 15%;
+    left: 00%;
+    -webkit-transform: translate(0%, -50%);
+    -moz-transform: translate(0%, -50%);
+    -ms-transform: translate(0%, -50%);
+    -o-transform: translate(0%, -50%);
+    transform: translate(0%, -50%);
+    z-index: 9;
+  }
+}

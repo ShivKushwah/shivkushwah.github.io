@@ -1,0 +1,254 @@
+<!doctype html>
+<html class="no-js" lang="en"> <!--<![endif]-->
+    <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Ajay Raj Merchia</title>
+      <meta name="description" content="A student, an entrepreneur, a realtor and more. Jump in and learn about me.">
+      <meta name="keywords" content="">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+
+      <!-- bootstrap css -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+      <!-- google fonts -->
+      <link href="https://fonts.googleapis.com/css?family=Muli:200,300,400,600,700,,800,900|Josefin+Sans:300,400,600,700" rel="stylesheet">
+
+      <!-- owl carousel CSS -->
+      <link rel="stylesheet" href="../css/owl.carousel.min.css">
+      <link rel="stylesheet" href="../css/owl.theme.default.min.css">
+
+      <!-- magnific-popup CSS -->
+      <link rel="stylesheet" href="../css/magnific-popup.css">
+
+      <!-- Font Icon Core CSS -->
+      <link rel="stylesheet" href="../css/font-awesome.min.css">
+      <link rel="stylesheet" href="../css/et-line.css">
+      <link rel="stylesheet" type="text/css" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+      <!--[if lt IE 9]-->
+      <script src="../js/html5shiv.min.js"></script>
+      <!--[endif]-->
+      <!-- jQuery -->
+      <script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
+      <script src="https://code.jquery.com/jquery-migrate-3.0.0.min.js"></script>
+
+        <!-- bootstrap -->
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+      <!-- scrollIt -->
+      <script src="../js/scrollIt.min.js"></script>
+
+      <!-- magnific-popup -->
+      <script src="../js/jquery.magnific-popup.min.js"></script>
+
+      <!-- owl carousel -->
+      <script src="../js/owl.carousel.min.js"></script>
+
+      <!-- stellar js -->
+      <script src="../js/jquery.stellar.min.js"></script>
+
+      <!-- typed js -->
+      <script src="../js/typed.js"></script>
+
+      <!-- jquery.waypoints.min js -->
+      <script src="../js/jquery.waypoints.min.js"></script>
+
+      <!-- jquery.counterup.min js -->
+      <script src="../js/jquery.counterup.min.js"></script>
+
+      <!-- isotope.pkgd.min js -->
+      <script src="../js/isotope.pkgd.min.js"></script>
+
+      <!-- validator js -->
+      <script src="../js/validator.js"></script>
+      <script src="https://unpkg.com/ionicons@4.1.1/dist/ionicons.js"></script>
+
+		</head>
+
+
+
+    <body>
+		<div embedded-html="../partials/header.html"></div>
+		<!-- ====== Preloader ======  -->
+		<!-- Core Style Css -->
+		<link rel="stylesheet" href="../css/style.css">
+		<link rel="stylesheet" href="../css/custom.css">
+		<!-- Loading Framework -->
+		<div class="loading">
+			<div class="load-circle">
+			</div>
+		</div>
+		<!-- ======End Preloader ======  -->
+
+<link rel="stylesheet" href="../css/prof.css">
+<link rel="stylesheet" href="../css/prof-mobile.css">
+		<!-- ====== Header ======  -->
+		<section id="home" class="header" data-scroll-index="0">
+			<div class="container">
+				<div class="row">
+					<div class="v-custom2" style="">
+						<div class="caption">
+							<h1 class="no-margin">Ajay Merchia</h1>
+							<div class="type ">
+								<h3></h3>
+							</div>
+
+
+							<div class="resume col-md-6 col-md-offset-3 container" style="border: none; margin-top: 30vh;">
+								<div class="centered top-space-lg" style="padding: 1vw;">
+									<div class="tabs-icon no-margin">
+										<ul>
+											<li id="tab-3" class="custom-gray-button" style="border-right: 1px solid white">
+												<a href="../files/resume.pdf" download ><h6 class="sm-title" style="width: 15vw"><i class="icon ion-android-download"></i> Download Resume</h6></a>
+											</li>
+											<li id="tab-4" class="custom-gray-button" style="border-left: 1px solid white">
+												<a href="../files/cv.pdf" download ><h6 class="sm-title" style="width: 15vw;">Download C.V <i class="icon ion-android-download"></i></h6></a>
+
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+
+					<div class="mouse-icon margin-20">
+								<div class="scroll"></div>
+					</div>
+				</div>
+			</div>
+
+		</section>
+		<!-- ====== End Header ======  -->
+
+		<!-- ====== Resume ======  -->
+		<section id="resume" class="resume section-padding" data-scroll-index="2">
+
+
+			<div class="container">
+
+				<div class="section-head">
+					<h3>Where I've Been</h3>
+					<i><p>Check out what types of things I've been up to!</p></i>
+				</div>
+
+
+        <div id="experience-build-zone">
+          <script>
+          const skillBuildZone = document.getElementById("experience-build-zone")
+          var idx = 0
+
+          function elemClass(e, c) {
+            var elem = document.createElement(e)
+            if (c) {
+              elem.className = c
+            }
+
+            return elem
+          }
+          function addText(e, t) {
+            e.appendChild(document.createTextNode(t))
+          }
+
+          $.getJSON("work.json", function(work) {
+            var currRow, currSection
+            console.log(work);
+
+            for (experience of work){
+              console.log(experience.id);
+              if (idx % 4 == 0) {
+                // set the currRow
+                currRow = document.createElement("div")
+                currRow.className = "row"
+                // add it to buildzone
+                skillBuildZone.appendChild(currRow)
+              }
+              currSection = elemClass("div", "col-md-3 padding-def bottom-space")
+              currSection.appendChild(document.createElement("br"))
+              currRow.appendChild(currSection)
+
+              // Configure the section
+              function getBoldElement(text) {
+                var content = elemClass("b")
+                addText(content, text)
+                content.style.color = experience.accent
+                return content
+              }
+              // add Image
+              var imgSection = document.createElement("div")
+              var link = document.createElement("a")
+              var img = document.createElement("img")
+              link.appendChild(img)
+              imgSection.appendChild(link)
+              currSection.appendChild(imgSection)
+              link.href = experience.link
+              img.src = `../img/logos/${experience.img}`
+              img.style.borderRadius = "50px"
+
+              // add body
+              var bodySection = elemClass("div", "top-space centered")
+              currSection.appendChild(bodySection)
+
+              var body = elemClass("div", "scrunch")
+              bodySection.appendChild(body)
+
+              var title = elemClass("span", "company")
+              addText(title, experience.title)
+              body.appendChild(title)
+              body.appendChild(elemClass("hr"))
+
+
+              var position = elemClass("span", "padless position")
+              position.appendChild(getBoldElement(experience.position))
+              body.appendChild(position)
+              body.appendChild(elemClass("br"))
+
+              var dateSection = elemClass("i")
+              var dates = elemClass("span", "padless term")
+              addText(dates, experience.dates)
+              dateSection.appendChild(dates)
+              body.appendChild(dateSection)
+              body.appendChild(elemClass("hr"))
+
+              var justifiedText = elemClass("span")
+              justifiedText.style.textAlign = "justify"
+              body.appendChild(justifiedText)
+
+              addText(justifiedText, experience.description)
+              justifiedText.appendChild(elemClass("br"))
+              justifiedText.appendChild(elemClass("br"))
+
+              justifiedText.appendChild(getBoldElement("Business Skills Used: "))
+              addText(justifiedText, experience.business_skills)
+
+              if (experience.technical_skills) {
+                justifiedText.appendChild(elemClass("br"))
+                justifiedText.appendChild(elemClass("br"))
+
+                justifiedText.appendChild(getBoldElement("Tech Skills Used: "))
+                addText(justifiedText, experience.technical_skills)
+              }
+
+
+              idx+=1;
+            }
+          });
+          </script>
+        </div>
+
+
+
+
+
+			</div>
+		</section>
+		<!--====== End Blog ======-->
+
+<div id="post-load" style="display: none">
+	"../js/prof.js",
+
+</div>
+<script src="../partials/partial-loader.js"></script>

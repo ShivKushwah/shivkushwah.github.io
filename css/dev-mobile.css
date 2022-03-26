@@ -1,0 +1,54 @@
+/*  THINGS THAT SHOW ON WEB*/
+@media (min-width: 1024px) {
+  .web-only {
+    display: block;
+  }
+
+  .mobile-only {
+    display: none;
+  }
+}
+
+/*  THINGS THAT SHOW ON MOBILE*/
+@media (max-width: 1024px) {
+  .web-only {
+    display: none;
+  }
+
+  .mobile-only {
+    display: block;
+  }
+  #home {
+    background-size: auto 100vh;
+    background-image: url(../img/dev_main.jpg);
+    background-position: 80% 0%;
+  }
+
+
+  .v-custom3 {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 25%;
+    -webkit-transform: translate(0%, -50%);
+    -moz-transform: translate(0%, -50%);
+    -ms-transform: translate(0%, -50%);
+    -o-transform: translate(0%, -50%);
+    transform: translate(0%, -50%);
+    z-index: 9;
+  }
+
+
+  .v-custom2 {
+    position: absolute;
+    width: 100%;
+    top: 45%;
+    left: 0%;
+    -webkit-transform: translate(0%, -50%);
+    -moz-transform: translate(0%, -50%);
+    -ms-transform: translate(0%, -50%);
+    -o-transform: translate(0%, -50%);
+    transform: translate(0%, -50%);
+    z-index: 9;
+  }
+}

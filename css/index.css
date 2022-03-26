@@ -1,0 +1,78 @@
+#home {
+  background-image: url(../img/bg.jpg);
+}
+.clients {
+  background-image: url(../img/2.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+}
+
+.roundbtn:hover {
+  background-color: #FFF;
+}
+.roundbtn {
+  border-radius: 50%;
+  width: 8.5vw;
+  height: 8.5vw;
+  display: inline-block;
+  margin-left: 7vw;
+  margin-right: 7vw;
+
+  background-color: rgba(0,0,0,0);
+  border: 1px solid white;
+  transition: background-color 0.5s ease;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 50% 50%;
+}
+
+.menu-labels {
+  display: inline-block;
+  margin-left: 7vw;
+  margin-right: 7vw;
+  width: 8.5vw;
+  color: white
+}
+
+#re-btn {
+  background-image: url(../img/btn-imgs/btn-re-wh.png);
+  transition: 0.5s ease;
+
+}
+#re-btn:hover {
+  background-image: url(../img/btn-imgs/btn-re-bk.png);
+}
+#en-btn {
+  background-image: url(../img/btn-imgs/btn-entre-wh.png);
+  transition: 0.5s ease;
+}
+#en-btn:hover {
+  background-image: url(../img/btn-imgs/btn-entre-bk.png);
+}
+#fa-btn {
+  background-image: url(../img/btn-imgs/btn-fine-wh.png);
+  transition: 0.5s ease;
+}
+#fa-btn:hover {
+  background-image: url(../img/btn-imgs/btn-fine-bk.png);
+}
+#de-btn {
+  background-image: url(../img/btn-imgs/btn-dev-wh.png);
+  transition: 0.5s ease;
+}
+#de-btn:hover {
+  background-image: url(../img/btn-imgs/btn-dev-bk.png);
+}
+#pr-btn {
+  background-image: url(../img/btn-imgs/btn-prof-wh.png);
+  transition: 0.5s ease;
+}
+#pr-btn:hover {
+  background-image: url(../img/btn-imgs/btn-prof-bk.png);
+}
+
+.custom-gray-button:hover {
+  background: #121212 !important;
+}

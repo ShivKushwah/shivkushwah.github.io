@@ -1,0 +1,72 @@
+[
+  {
+    "section_title": "Technical",
+    "skills": [
+      "Machine Learning",
+      "Concurrency Management",
+      "Web & Network Security",
+      "Application Deployment",
+      "RESTful API Development",
+      "DNS Management",
+      "Operating Systems"
+    ]
+  },
+  {
+    "section_title": "Languages",
+    "skills": [
+      "Python",
+      "Swift",
+      "Node.JS",
+      "React.JS",
+      "HTML/CSS/Javascript",
+      "Batch/Bash",
+      "Django",
+      "Java/C/Golang"
+    ]
+  },
+  {
+    "section_title": "Developer Tools & Libraries",
+    "skills": [
+      "Google Cloud Platform",
+      "FB API (Graph, Auth)",
+      "MongoDB/Firebase",
+      "Cloudflare/Heroku",
+      "Stripe API",
+      "Chart.JS",
+      ""
+    ]
+  },
+  {
+    "section_title": "Data",
+    "skills": [
+      "NumPy",
+      "Google Colab",
+      "SKLearn/SciPy",
+      "PyTorch",
+      "PivotTables & PivotCharts",
+      "SQL & R",
+      "Pandas"
+    ]
+  },
+  {
+    "section_title": "Design",
+    "skills": [
+      "Figma",
+      "Adobe Design XD",
+      "Adobe Illustrator",
+      "Adobe Photoshop/Lightroom",
+      "Sketch"
+    ]
+  },
+  {
+    "section_title": "Other",
+    "skills": [
+      "DSLR Photography",
+      "Final Cut Pro",
+      "Motion",
+      "Animation",
+      "Adobe Audition/Garageband",
+      ""
+    ]
+  }
+]

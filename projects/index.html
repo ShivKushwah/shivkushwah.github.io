@@ -1,0 +1,322 @@
+<!doctype html>
+<html class="no-js" lang="en"> <!--<![endif]-->
+    <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Ajay Raj Merchia</title>
+      <meta name="description" content="A student, an entrepreneur, a realtor and more. Jump in and learn about me.">
+      <meta name="keywords" content="">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+
+      <!-- bootstrap css -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+      <!-- google fonts -->
+      <link href="https://fonts.googleapis.com/css?family=Muli:200,300,400,600,700,,800,900|Josefin+Sans:300,400,600,700" rel="stylesheet">
+
+      <!-- owl carousel CSS -->
+      <link rel="stylesheet" href="../css/owl.carousel.min.css">
+      <link rel="stylesheet" href="../css/owl.theme.default.min.css">
+
+      <!-- magnific-popup CSS -->
+      <link rel="stylesheet" href="../css/magnific-popup.css">
+
+      <!-- Font Icon Core CSS -->
+      <link rel="stylesheet" href="../css/font-awesome.min.css">
+      <link rel="stylesheet" href="../css/et-line.css">
+      <link rel="stylesheet" type="text/css" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+      <!--[if lt IE 9]-->
+      <script src="../js/html5shiv.min.js"></script>
+      <!--[endif]-->
+      <!-- jQuery -->
+      <script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
+      <script src="https://code.jquery.com/jquery-migrate-3.0.0.min.js"></script>
+
+        <!-- bootstrap -->
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+      <!-- scrollIt -->
+      <script src="../js/scrollIt.min.js"></script>
+
+      <!-- magnific-popup -->
+      <script src="../js/jquery.magnific-popup.min.js"></script>
+
+      <!-- owl carousel -->
+      <script src="../js/owl.carousel.min.js"></script>
+
+      <!-- stellar js -->
+      <script src="../js/jquery.stellar.min.js"></script>
+
+      <!-- typed js -->
+      <script src="../js/typed.js"></script>
+
+      <!-- jquery.waypoints.min js -->
+      <script src="../js/jquery.waypoints.min.js"></script>
+
+      <!-- jquery.counterup.min js -->
+      <script src="../js/jquery.counterup.min.js"></script>
+
+      <!-- isotope.pkgd.min js -->
+      <script src="../js/isotope.pkgd.min.js"></script>
+
+      <!-- validator js -->
+      <script src="../js/validator.js"></script>
+      <script src="https://unpkg.com/ionicons@4.1.1/dist/ionicons.js"></script>
+
+		</head>
+
+
+
+    <body>
+		<div embedded-html="../partials/header.html"></div>
+		<!-- ====== Preloader ======  -->
+		<!-- Core Style Css -->
+		<link rel="stylesheet" href="../css/style.css">
+		<link rel="stylesheet" href="../css/custom.css">
+		<!-- Loading Framework -->
+		<div class="loading">
+			<div class="load-circle">
+			</div>
+		</div>
+		<!-- ======End Preloader ======  -->
+
+<link rel="stylesheet" href="../css/dev.css">
+<link rel="stylesheet" href="../css/dev-mobile.css">
+<!-- ====== Header ======  -->
+<section id="home" class="header" data-scroll-index="0">
+	<div class="container">
+		<div class="row">
+			<div class="v-custom2" style="">
+				<div class="caption">
+					<h1 class="no-margin">Ajay Merchia</h1>
+					<div class="type" >
+						<h3 style="font-family: 'Courier'"></h3>
+					</div>
+				</div>
+			</div>
+			<div class="mouse-icon margin-20">
+						<div class="scroll"></div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- ====== End Header ======  -->
+
+<!-- ====== Hero ======  -->
+<section id="projects" class="hero section-padding">
+	<div class="container">
+    <h1> My Projects </h1>
+    <i><p> Check out what I've built!</p></i>
+    <hr>
+		<div id="project-build-zone" class="container col-md-12">
+
+
+    </div>
+    <script>
+      const buildZone = document.getElementById("project-build-zone")
+      var idx = 0
+
+      function getHR() {
+        var hr = document.createElement("hr")
+        hr.style.borderColor = "#bbb"
+        return hr
+      }
+      function createProjectPane(config) {
+        const showBorders = false
+        var pane = document.createElement("div")
+        pane.className = "col-md-4 padding top-space bottom-space"
+
+        var innerPane = document.createElement("div")
+        innerPane.className = "col-md-12 centered padding-def"
+        if (showBorders) {
+            innerPane.style.border = "1px solid #bbb"
+        }
+
+
+        var logo = document.createElement("img")
+        logo.className = "col-md-12 bottom-space top-space"
+        logo.src = config.img
+        logo.style.borderRadius = "50px"
+
+        if (config.bw) {
+          logo.style.filter = "grayscale(100%)"
+        }
+
+
+
+        var projectHeader = document.createElement("div")
+
+
+        var title = document.createElement("h3")
+        title.innerHTML = config.title
+
+        var languages = document.createElement("div")
+        languages.className = "row centered"
+
+        for (language of config.languages) {
+          var langIcon = document.createElement("img")
+          langIcon.src = `../img/languages/${language}.png`
+          langIcon.style.height = "30px"
+          langIcon.style.width = "30px"
+          langIcon.style.margin = "10px"
+          languages.appendChild(langIcon)
+        }
+
+        var body = document.createElement("p")
+        body.appendChild(getHR())
+
+        var first = true
+        for (line of config.description.split("\n")) {
+          if (!first) {
+            body.appendChild(document.createElement("br"))
+          }
+          body.appendChild(document.createTextNode(line))
+          first = false
+        }
+
+
+        var status = document.createTextNode(config.status)
+
+        var outlink = document.createElement("a")
+        outlink.href = config.link
+
+        var outlinkBody = document.createElement("span")
+        if (config.is_private) {
+          outlinkBody.className = "private-proj"
+        } else {
+          outlinkBody.className = "botn"
+        }
+        outlinkBody.innerHTML = config.action
+
+        outlink.appendChild(outlinkBody)
+        body.appendChild(getHR())
+        body.appendChild(status)
+
+        innerPane.appendChild(logo)
+        innerPane.appendChild(title)
+        innerPane.appendChild(languages)
+        innerPane.appendChild(body)
+        innerPane.appendChild(outlink)
+
+        pane.appendChild(innerPane)
+        return pane
+      }
+
+      $.getJSON("projects.json", function(projects) {
+        var currRow
+        console.log(projects);
+
+        for (project of projects){
+          if (idx % 3 == 0) {
+            // set the currRow
+            currRow = document.createElement("div")
+            currRow.className = "row col-md-12"
+            // add it to buildzone
+            buildZone.appendChild(currRow)
+          }
+          currRow.appendChild(createProjectPane(project))
+          idx+=1;
+        }
+      });
+
+
+    </script>
+  </div>
+</section>
+
+<section id="skills" class="section-padding" style="padding-top: 0px">
+	<div class="container">
+		<div class="row">
+			<h1> Tech Stack </h1>
+			<i><p> As a quick learner, I'll learn new skills as needed. </p></i>
+			<hr>
+			</div>
+				<div class="terminal col-md-12">
+				  <div class="header2">
+				    <div class="circle"></div>
+				    <div class="circle"></div>
+				    <div class="circle"></div>
+				    skillz.txt
+				  </div>
+          <div id="skill-build-zone" class="row col-md-12">
+            <script>
+              function createRowElement(skill, isHeader = false) {
+                const text = document.createTextNode(skill)
+                var paragraph = document.createElement("p")
+                paragraph.style.fontSize = "100%"
+                paragraph.style.marginBottom = "0px"
+                var addTarget = paragraph
+                if (isHeader) {
+                  addTarget = document.createElement("strong")
+                  paragraph.appendChild(addTarget)
+                }
+                addTarget.appendChild(text)
+                return paragraph
+              }
+
+
+              const skillBuildZone = document.getElementById("skill-build-zone")
+              var idx = 0
+
+              $.getJSON("skills.json", function(skills) {
+                var currRow, currSection
+                console.log(skills);
+
+                for (category of skills){
+                  console.log(category.section_title);
+                  if (idx % 3 == 0) {
+                    // set the currRow
+                    currRow = document.createElement("div")
+                    currRow.className = "row col-md-12"
+                    // add it to buildzone
+                    skillBuildZone.appendChild(currRow)
+                  }
+
+                  currSection = document.createElement("div")
+                  currSection.className = "col-md-4 bottom-space"
+                  currSection.appendChild(document.createElement("br"))
+                  currSection.appendChild(createRowElement(category.section_title, true))
+
+                  var hr = document.createElement("hr")
+                  hr.style.margin = "0px"
+                  hr.style.marginBottom = "8px"
+                  currSection.appendChild(hr)
+                  for (skill of category.skills) {
+                    currSection.appendChild(createRowElement(skill))
+                  }
+                  currRow.appendChild(currSection)
+                  idx+=1;
+                }
+              });
+            </script>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="container-fluid">
+				<a href="https://github.com/ajaymerchia">
+					<div class="col-md-4 col-md-offset-4 botn" style="cursor: pointer">
+
+					<div style="font-size: 4vh" class="col-md-7 v-custom3">
+						View My Github
+					</div>
+
+					<div class="col-md-3">
+						<span><i style="font-size: 7vh" class="fa fa-github fa-5" aria-hidden="true"></i></span>
+					</div>
+
+				</div>
+			</a>
+		</div>
+	</section>
+
+
+
+<div id="post-load" style="display: none">
+	"../js/dev.js",
+
+</div>
+<script src="../partials/partial-loader.js"></script>

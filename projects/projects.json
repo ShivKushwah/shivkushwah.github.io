@@ -1,0 +1,153 @@
+[
+  {
+    "img": "../img/logos/cozmicgo.jpg",
+    "title": "CozmicGo",
+    "description": "CozmicGo connects celebrities & influencers to eventgoers to bring social media into the real world.\n\nI designed, developed, and deployed over 120 features as the product manager amongst 6 developers, increasing sprint velocity 70%.\n\nKey features I worked on include a transactional database system, encrypted check-ins, and a mutual friends algorithmn. As a PM, I led scrums; defined framework, backend, and app teams; and coordinated dev efforts on larger features.",
+    "languages": ["swift", "html", "nodejs"],
+    "status": "Releasing September 2019",
+    "is_private": true,
+    "action": "Under Construction",
+    "link": ""
+  },
+  {
+    "img": "../img/logos/boxlet.jpg",
+    "bw": true,
+    "title": "BoxletAdmin",
+    "description": "The BoxletAdmin iOS app provides business automation & reporting for Boxlet Storage, an AirBnB for Storage. \n\nWorking with nontechnical members of our team, I define admin processes, then provide an interface for server-side financial and database adjustment.\n\nBoth statistical reporting and admin services are provided by the app. Deployed securely via a NodeJS deployment server.",
+    "status": "Started May 2019",
+    "languages": ["swift"],
+    "is_private": true,
+    "action": "Private",
+    "link": ""
+  },
+  {
+    "img": "../img/logos/boxlet.jpg",
+    "title": "Boxlet - React",
+    "description": "Boxlet Storage, an AirBnB for Storage, needed a responsive, web counterpart to its mobile apps.\n\nI PM'ed the React Web Client for Boxlet. I ensured that we could ship a booking-only MVP within 2 weeks, and the rest of the product functionality within 2 months.\n\nI also architected the application's infrastructure to protect against DDOS-ing our API, regulate data access control, and data separation across our deployment pipeline.",
+    "status": "Started May 2019",
+    "languages": ["react", "nodejs"],
+    "is_private": false,
+    "action": "Visit Site",
+    "link": "http://app.boxletstorage.com"
+  },
+  {
+    "img": "../img/logos/boxlet.jpg",
+    "title": "Boxlet - API",
+    "description": "The Boxlet RESTful API provides the backend logic that keeps all Boxlet services alive. \n\nI was the lead developer of the Boxlet API. Notable features include enhanced geohash search, a transactional database system to prevent booking complications, a bin-packing algorithmn to manage storers, and access control security authorization via 256b symmetric keys.",
+    "status": "Started April 2019",
+    "languages": ["nodejs"],
+    "is_private": true,
+    "action": "Private",
+    "link": ""
+  },
+  {
+    "img": "../img/logos/boxlet.jpg",
+    "title": "Boxlet - iOS",
+    "description": "The Boxlet iOS client is the largest revenue source for Boxlet Storage, bringing in over 200 bookings annually with nearly 500 downloads.\n\nI built this app entirely on my own as my co-founder developed the Android mirror.\n\nI built a data model cache, a custom object serialization/networking class, and multiple UI framework components to complete a 4 month app in 4 weeks.",
+    "status": "Started April 2019",
+    "languages": ["swift"],
+    "is_private": false,
+    "action": "Get the App!",
+    "link": "https://apps.apple.com/us/app/boxlet-storage/id1462153149"
+  },
+  {
+    "img": "../img/logos/armdevsuite.jpg",
+    "title": "ARMDevSuite",
+    "description": "The ARMDevSuite is a custom cocoapod composed of 12 libraries. \n\n7 are UI Framework libraries that conform to protocol-delegate design & rapidly increase the speed of app teams. The remainder are logic libraries that provide easy APIs for data model manipulation. \n\nWIP - documentation required.",
+    "status": "Started January 2019",
+    "languages": ["swift"],
+    "is_private": false,
+    "action": "View GitHub",
+    "link": "https://github.com/ajaymerchia/ARMDevSuite"
+  },
+  {
+    "img": "../img/logos/hidesnight.jpg",
+    "title": "HidesNight",
+    "description": "HidesNight was my first end-to-end iOS application exploring complicated Swift concepts. HidesNight manages high-tech, large-scale games of hide and seek.\n\nThe game was originally conceptualized by my friends and I at UC Berkeley. 90 minute games of of hide and seek, played in the dead of night, with GPS assist for the last 30 minutes.\n\nHidesNight taught me to build applications that use Background Modes for location updates, server-generated push notifications, in-app chat, and more.",
+    "status": "Completed December 2018",
+    "languages": ["swift"],
+    "is_private": false,
+    "action": "Get the App!",
+    "link": "https://apps.apple.com/us/app/hidesnight/id1449780984"
+  },
+  {
+    "img": "../img/logos/recruitmate.jpg",
+    "title": "RecruitMate",
+    "description": "RecruitMate was an iOS app to help students manage their recruiting pipelines. I built this app with two other developers from MDB, a student org.\n\nRecruitMate applied SaaS B2B marketing practices towards crafting a powerful CRM tool to push internship applications down the pipeline with multiple contacts/recruiters.\n\nI started developing an intelligent email parser to auto update application statuses based on inbound emails from flagged contacts. I also worked on building the pipeline UI, as well as the task/checklist management features.",
+    "status": "Completed November 2018",
+    "languages": ["swift"],
+    "is_private": false,
+    "action": "Get the App!",
+    "link": "https://apps.apple.com/us/app/recruitmate/id1443632649"
+  },
+  {
+    "img": "../img/logos/boxlet.jpg",
+    "title": "Boxlet - Web",
+    "description": "As an initial market test, I built a web app to support peer-to-peer storage.\n\nWithin 48 hours we went from nothing to having a full site supporting both listing & booking creation (including payments).\n\nTo build the initial web app, I used native HTML/CSS/JS for the front end, along with ExpressJS, Node.JS, Google APIs, Stripe APIs, and more to power the backend.",
+    "status": "Completed August 2018",
+    "languages": ["nodejs", "html"],
+    "is_private": true,
+    "action": "Private",
+    "link": "https://apps.apple.com/us/app/recruitmate/id1443632649"
+  },
+  {
+    "img": "../img/logos/opptycall.jpg",
+    "title": "OpptyCall",
+    "description": "Built a descriptive and prescriptive Artificial Intelligence that customizes telemarketer calling schedules. After implementation for 40+ users, doubled the organization's call connect rate.\n\nProtected IP; contact for details.",
+    "status": "Completed July 2018",
+    "languages": ["nodejs", "html"],
+    "is_private": true,
+    "action": "Protected IP",
+    "link": ""
+  },
+  {
+    "img": "../img/logos/gailq.png",
+    "title": "GAIL-Q",
+    "description": "G2-Crowd AI Lead Qualifier. This was a natural language processing artificial intelligence that I developed in Python to extract and qualify leads sourced from multiple PPL vendors.\n\nUsed viterbi segmentation algorithmn, Salesforce API, and LinkedIn API.\n\nProtected IP; contact for details.",
+    "status": "Completed June 2018",
+    "languages": ["python", "html"],
+    "is_private": true,
+    "action": "Protected IP",
+    "link": ""
+  },
+  {
+    "img": "../img/logos/mktoknsu.jpg",
+    "title": "Marketo-Kenshoo",
+    "description": "Built an integration between the Marketo, a marketing automation platform, and Kenshoo, an artificial intelligence PPC bidding tool. Automating this manual process improved ad effectiveness by 10% and reduced outsourcing costs.\n\nProtected IP; contact for details.",
+    "status": "Completed May 2018",
+    "languages": ["python"],
+    "is_private": true,
+    "action": "Protected IP",
+    "link": ""
+  },
+  {
+    "img": "../img/logos/campaign.jpg",
+    "title": "Senate Campaign",
+    "description": "This was my first responsive web-design project. As a campaign manager for an ASUC election, I created a website.\n\nI also wrote macro scripts that automatically farmed emails from the University database based on our candidate's connections",
+    "status": "Completed March 2018",
+    "languages": ["html"],
+    "is_private": false,
+    "action": "Visit Site",
+    "link": "http://sharmaishan.com/campaign/campaign.html"
+  },
+  {
+    "img": "../img/logos/memlabs.jpg",
+    "title": "Memory Labs",
+    "description": "Created two connected applications using Node.JS and HTML/CSS/JS to build a voice-based healthcare assistant for families with loved ones facing Alzheimer's and Dementia. \n\nUsed speech-to-text libraries to manage user interaction, and daemons to alert the user of system-generated events.",
+    "status": "Completed August 2017",
+    "languages": ["nodejs","html"],
+    "is_private": true,
+    "action": "Closed",
+    "link": ""
+  },
+  {
+    "img": "../img/logos/escape.jpg",
+    "title": "Escape!",
+    "description": "Escape from Math Mountain was my very first coding project. I created an educational game using Java Applets. It was a 2-player, math-based racing game in which players compete to escape Math Mountain first by solving 20 problems first.",
+    "status": "Completed May 2015",
+    "languages": ["java"],
+    "is_private": true,
+    "action": "View GitHub",
+    "link": "https://github.com/ajaymerchia/EscapeFromMathMountain"
+  }
+]

@@ -1,0 +1,122 @@
+#home {
+  background-image: url(../img/prof-main.jpg);
+  background-position: 50% 20%
+}
+
+.scrunch {
+  line-height: 1.3;
+}
+
+.company {
+  font-size: 3.5vh;
+  color: black;
+
+}
+
+.position {
+  font-size: 2.5vh;
+  color: black;
+
+}
+
+
+
+.term {
+
+  font-family: 'Times'
+
+}
+
+
+
+.clients {
+  background-image: url(../img/2.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+}
+
+.roundbtn:hover {
+  background-color: #FFF;
+}
+.roundbtn {
+  border-radius: 50%;
+  width: 8.5vw;
+  height: 8.5vw;
+  display: inline-block;
+  margin-left: 7vw;
+  margin-right: 7vw;
+
+  background-color: rgba(0,0,0,0);
+  border: 1px solid white;
+  transition: background-color 0.5s ease;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 50% 50%;
+}
+
+.menu-labels {
+  display: inline-block;
+  margin-left: 7vw;
+  margin-right: 7vw;
+  width: 8.5vw;
+  color: white
+}
+
+#re-btn {
+  background-image: url(../img/btn-imgs/btn-re-wh.png);
+  transition: 0.5s ease;
+
+}
+#re-btn:hover {
+  background-image: url(../img/btn-imgs/btn-re-bk.png);
+}
+#en-btn {
+  background-image: url(../img/btn-imgs/btn-entre-wh.png);
+  transition: 0.5s ease;
+}
+#en-btn:hover {
+  background-image: url(../img/btn-imgs/btn-entre-bk.png);
+}
+#fa-btn {
+  background-image: url(../img/btn-imgs/btn-fine-wh.png);
+  transition: 0.5s ease;
+}
+#fa-btn:hover {
+  background-image: url(../img/btn-imgs/btn-fine-bk.png);
+}
+#de-btn {
+  background-image: url(../img/btn-imgs/btn-dev-wh.png);
+  transition: 0.5s ease;
+}
+#de-btn:hover {
+  background-image: url(../img/btn-imgs/btn-dev-bk.png);
+}
+#pr-btn {
+  background-image: url(../img/btn-imgs/btn-prof-wh.png);
+  transition: 0.5s ease;
+}
+#pr-btn:hover {
+  background-image: url(../img/btn-imgs/btn-prof-bk.png);
+}
+
+.custom-gray-button {
+  background: rgba(255,255,255,.3) !important;
+}
+.custom-gray-button:hover {
+  background: rgba(0,0,0,.3) !important;
+}
+
+.v-custom2 {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 0;
+  -webkit-transform: translate(0%, -50%);
+  -moz-transform: translate(0%, -50%);
+  -ms-transform: translate(0%, -50%);
+  -o-transform: translate(0%, -50%);
+  transform: translate(0%, -50%);
+  z-index: 9;
+}
