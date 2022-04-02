@@ -69,7 +69,6 @@ $(function() {
 					"Guitarist.",
 					"Leader.",
 					"Gamer.",
-					"Escape Room Fanatic.",
 					"and more!"
 				],
         loop: true,
