@@ -64,16 +64,12 @@ $(function() {
     // typejs
     $('.header .caption h3').typed({
         strings: 	[
-					"Student.",
-					"Entrepreneur.",
-					"Realtor.",
 					"Developer.",
+					"Entrepreneur.",
+					"Guitarist.",
 					"Leader.",
-					"Brother.",
-					"Dancer.",
 					"Gamer.",
 					"Escape Room Fanatic.",
-					"Magic Hobbyist.",
 					"and more!"
 				],
         loop: true,
