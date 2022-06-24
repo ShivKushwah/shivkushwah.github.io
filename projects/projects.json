@@ -1,13 +1,13 @@
 [
   {
-    "img": "../img/logos/cozmicgo.jpg",
-    "title": "CozmicGo",
-    "description": "CozmicGo connects celebrities & influencers to eventgoers to bring social media into the real world.\n\nI designed, developed, and deployed over 120 features as the product manager amongst 6 developers, increasing sprint velocity 70%.\n\nKey features I worked on include a transactional database system, encrypted check-ins, and a mutual friends algorithmn. As a PM, I led scrums; defined framework, backend, and app teams; and coordinated dev efforts on larger features.",
-    "languages": ["swift", "html", "nodejs"],
-    "status": "Releasing September 2019",
-    "is_private": true,
-    "action": "Under Construction",
-    "link": ""
+    "img": "../img/logos/p.jpg",
+    "title": "PSec",
+    "description": "PSec is a domain-specific language for programming secure distributed systems. It is a state-machine based programming language with information flow control capabilities that leverages Intel SGX enclaves to provide security guarantees at runtime.\n\n I created this as my Master's research project at UC Berkeley as part of the Learn&Verify research lab, and the conference paper was accepted to Asia CCS '21.",
+    "languages": ["c", "c++", "cmake"],
+    "status": "Started August 2019",
+    "is_private": false,
+    "action": "View Paper",
+    "link": "https://dl.acm.org/doi/10.1145/3433210.3453113"
   },
   {
     "img": "../img/logos/boxlet.jpg",
