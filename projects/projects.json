@@ -10,7 +10,7 @@
     "link": "https://dl.acm.org/doi/10.1145/3433210.3453113"
   },
   {
-    "img": "../img/logos/boxlet.jpg",
+    "img": "../img/logos/apt.png",
     "bw": true,
     "title": "Anonymous Credential Service",
     "description": "At Meta, I'm one of the core engineers working on ACS. This service leverages blind signatures and other cryptographic primitivies to enable de-identified authentication at scale, serving hundreds of thousands of requests per second.\n\n I've worked all across the ACS codebase, including the C++ backend service, the Android and iOS Mobile SDKs, operational infrastrcture (e.g. alerting framework), and user portal.\n\n I co-presented ACS at the Systems@Scale 2022 conference, and helped write about it on the Meta Engineering Blog.",
