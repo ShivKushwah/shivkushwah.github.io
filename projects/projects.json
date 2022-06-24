@@ -21,7 +21,7 @@
     "link": "https://engineering.fb.com/2022/03/30/security/de-identified-authentication-at-scale/"
   },
   {
-    "img": "../img/logos/yearbook.jpg",
+    "img": "../img/logos/yearbook.png",
     "title": "Yearbook - Android App",
     "description": "YearBook is a cross-platform photo-a-day app that enables convenient documentation of activities in preschool classrooms.\n\n I helped build the Android App and we were able to deploy to the Google Play Store. Our team was eventually accepted to Free Ventures (startup accelerator) and pitched to VCs such as Sequoia and General Catalyst.",
     "status": "Started May 2017",
@@ -31,7 +31,7 @@
     "link": "https://github.com/ShivKushwah/Yearbook-Android-Release"
   },
   {
-    "img": "../img/logos/nearme.jpg",
+    "img": "../img/logos/nearme.png",
     "title": "NearMe - Android App",
     "description": "NearMe is a location app that enables you to find your friends nearby. Unlike other apps, you create hotspots or locations where you are visible to friends only when you enter them (e.g. library, gym). Otherwise, you stay anonymous.\n\n I originally came up with this idea and formed a team in MDB to deliver this idea in both iOS and Android - we published to Google Play and the Apple App Store with over 1k installs.",
     "status": "Started March 2019",
@@ -41,13 +41,13 @@
     "link": "https://github.com/ShivKushwah/NearMe-Android"
   },
   {
-    "img": "../img/logos/boxlet.jpg",
-    "title": "Boxlet - iOS",
-    "description": "The Boxlet iOS client is the largest revenue source for Boxlet Storage, bringing in over 200 bookings annually with nearly 500 downloads.\n\nI built this app entirely on my own as my co-founder developed the Android mirror.\n\nI built a data model cache, a custom object serialization/networking class, and multiple UI framework components to complete a 4 month app in 4 weeks.",
+    "img": "../img/logos/deadfish.png",
+    "title": "Candyland - PC Game",
+    "description": "Candyland was one of my first experiences in programming, and I ended up working with friends to create a PC game. Candyland is an endless runner game, and we outfitted it with 3 total skins to change it into 3 different experiences. Check out the GitHub repo and the linked trailer for a throwback experience!",
     "status": "Started April 2019",
     "languages": ["swift"],
     "is_private": false,
-    "action": "Get the App!",
-    "link": "https://apps.apple.com/us/app/boxlet-storage/id1462153149"
+    "action": "Visit GitHub",
+    "link": "https://github.com/ShivKushwah/Candyland"
   }
 ]
