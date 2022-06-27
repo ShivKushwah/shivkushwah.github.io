@@ -2,12 +2,12 @@
   {
     "id": "meta",
     "link": "https://engineering.fb.com/2022/03/30/security/de-identified-authentication-at-scale/",
-    "img": "meta-logo.jpg",
+    "img": "meta.jpg",
     "accent": "#007df3",
     "title": "Meta",
     "position": "Software Engineer",
     "dates": "July 2020 - Present",
-    "description": "At Meta, I'm one of the core engineers working on Anonymous Credential Service. ACS leverages blind signatures and other cryptographic primitivies to enable de-identified authentication at scale, serving hundreds of thousands of requests per second. One of the coolest experiences I had at Meta was that I co-presented ACS at the Systems@Scale 2022 conference (https://atscaleconference.com/videos/acs-de-identified-authentication-at-scale-shiv-kushwah-haozhi-xiong/), and helped write about it on the Meta Engineering Blog. We actually even received media coverage (https://venturebeat.com/2022/03/30/meta-says-its-anonymous-credentials-service-acs-will-help-reduce-data-collection-activities/ and https://www.infoq.com/news/2022/04/meta-privacy-authentication/)!"
+    "description": "At Meta, I'm one of the core engineers working on Anonymous Credential Service. ACS leverages blind signatures and other cryptographic primitivies to enable de-identified authentication at scale, serving hundreds of thousands of requests per second. One of the coolest experiences I had at Meta was that I co-presented ACS at the Systems@Scale 2022 conference (tinyurl.com/5wz6my52), and helped write about it on the Meta Engineering Blog. We actually even received media coverage (tinyurl.com/eer8rhxn and tinyurl.com/4fdc2x5n)!"
   },
   {
     "id": "sage",
