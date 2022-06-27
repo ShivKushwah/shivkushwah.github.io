@@ -2,7 +2,7 @@
   {
     "img": "../img/logos/p-lang.png",
     "title": "PSec",
-    "description": "PSec is a domain-specific language for programming secure distributed systems. It is a state-machine based programming language with information flow control capabilities that leverages Intel SGX enclaves to provide security guarantees at runtime.\n\n I created this as my Master's research project at UC Berkeley as part of the Learn&Verify research lab, and the conference paper was accepted to Asia CCS '21.",
+    "description": "PSec is a domain-specific language for programming secure distributed systems. It is a state-machine based programming language with information flow control capabilities that leverages Intel SGX enclaves to provide security guarantees at runtime. I designed and developed a secure runtime, compiler, security protocols, and trust designation system to enable state machines to be created and send messages securely across untrusted distributed hosts and channels\n\n I created this as my Master's research project at UC Berkeley as part of the Learn & Verify research lab, and the conference paper was accepted to Asia CCS '21.",
     "languages": ["cpp"],
     "status": "Started August 2019",
     "is_private": false,
