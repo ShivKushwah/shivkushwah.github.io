@@ -10,16 +10,14 @@
     "description": "At Meta, I'm one of the core engineers working on Anonymous Credential Service. ACS leverages blind signatures and other cryptographic primitivies to enable de-identified authentication at scale, serving hundreds of thousands of requests per second. One of the coolest experiences I had at Meta was that I co-presented ACS at the Systems@Scale 2022 conference (tinyurl.com/5wz6my52), and helped write about it on the Meta Engineering Blog. We actually even received media coverage (tinyurl.com/eer8rhxn and tinyurl.com/4fdc2x5n)!"
   },
   {
-    "id": "sage",
+    "id": "learn",
     "link": "https://www.sageintacct.com",
     "img": "sage.png",
     "accent": "#22da27",
-    "title": "Learn & Verify Research Lab",
-    "position": "Product Management Intern",
-    "dates": "May 2019 - August 2019",
-    "description": "Recommended 5-year core product roadmap bringing in $25mn/year by conducting sentiment analysis; After analyzing over 700 escalations and bucketing customer needs into top 8 themes, prioritized most pressing features with customer survey, 200+ responses. Led team of 3 engineers to query 11 key usage metrics from customer database; Utilized metrics to design 3 user experiences, define and design 2 UI components, identify 2 critical product needs surfaced by 60+ customer workarounds, and rank feature importance. Coordinated product teams to architect the beta release of an accounting ledger anomaly detection AI by defining its 8 subprocesses",
-    "business_skills": "Data analysis, Marketo, Adwords, Google Analytics, Microsoft Excel, Salesforce, Presentation Skills",
-    "technical_skills": "HTML, CSS, DJango, Python, R, Heroku, Batch, FTP libraries, Assorted APIs, Node.JS, Express.JS, Chart.JS, CryptoJS, VBA"
+    "title": "Learn & Verify",
+    "position": "Student Researcher",
+    "dates": "May 2019 - May 2020",
+    "description": "I joined the UC Berkeley Learn & Verify Research Lab under Professor Sanjit Seshia for the duration of my Master's research. I worked on PSec (a programming language for creating secure distributed systems) and was mentored by Professor Sanjit Seshia, Professor Pramod Subramanyan, and Ankush Desai. I was briefly involved in the lab during undergrad as well where I created an Intel SGX-based Password Manager."
   },
   {
     "id": "mdb",
@@ -27,11 +25,9 @@
     "img": "mdb.jpg",
     "accent": "#73B9F2",
     "title": "MDB",
-    "position": "Product Manager, Instructor",
-    "dates": "February 2019 - Present",
-    "description": "Designed, developed, and deployed an iOS app connecting influencers to eventgoers under a $50,000 contract for high-growth startup. Led team of 6 developers to deliver over 120 app features by enforcing AGILE development sprints, increasing sprint velocity by 70% Developed & taught 80-hour iOS development and user research curriculum to 17 students driving 95% freshman job placement rate",
-    "business_skills": "Leadership, Product Management, Engineering Management, Negotiation, Go-To-Market Strategy",
-    "technical_skills": "Swift, Front-End Web, Node.JS, Server Daemons and Chrons"
+    "position": "Devcore Member",
+    "dates": "Jan 2017 - May 2020",
+    "description": "I designed, developed, and deployed Android apps with my classmates during my time in the Mobile Developers of Berkeley club. My biggest apps (and ventures in entreprenuership) were YearBook and NearMe. One cool experience was that our YearBook team was accepted to Free Ventures (startup accelerator) and we pitched to VCs such as Sequoia and General Catalyst."
   },
   {
     "id": "yc",
