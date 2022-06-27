@@ -57,7 +57,7 @@
     "title": "Workday",
     "position": "Software Engineering Intern (Mobile/Security)",
     "dates": "February 2018 - April 2018",
-    "description": "I interned at Workday as part of the Next team. I worked on a verifiable credentials blockchain application and implemented security protocols, culiminating in a mobile MVP TODO, I implemented complex cryptography schemes such as Camenisch-Lysyanskaya group signatures . Created Java Spring REST microservice + Android app (leveraging mobile enclaves)."
+    "description": "I interned on the Workday Next Team and worked on a verifiable credentials blockchain application. I implemented security protocols and leveraged mobile hardware enclaves to create a MVP Android Blockchain Wallet for the protocol. As part of this project, I contributed to an open source crypto library and merged a PR!"
   },
   {
     "id": "mgames",
