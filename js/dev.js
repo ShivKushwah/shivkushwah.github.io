@@ -65,7 +65,7 @@ $(function() {
     $('.header .caption h3').typed({
         strings: 	[
 					"Developer.",
-					"Product Manager.",
+					"Researcher.",
 				],
         loop: true,
         startDelay: 1000,
