@@ -11,9 +11,9 @@
   },
   {
     "id": "learn",
-    "link": "https://www.sageintacct.com",
-    "img": "sage.png",
-    "accent": "#22da27",
+    "link": "http://people.eecs.berkeley.edu/~sseshia/",
+    "img": "learn.jgp",
+    "accent": "#000000",
     "title": "Learn & Verify",
     "position": "Student Researcher",
     "dates": "May 2019 - May 2020",
