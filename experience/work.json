@@ -27,31 +27,27 @@
     "title": "MDB",
     "position": "Devcore Member",
     "dates": "Jan 2017 - May 2020",
-    "description": "I designed, developed, and deployed Android apps with my classmates during my time in the Mobile Developers of Berkeley club. My biggest apps (and ventures in entreprenuership) were YearBook and NearMe. One cool experience was that our YearBook team was accepted to Free Ventures (startup accelerator) and we pitched to VCs such as Sequoia and General Catalyst."
+    "description": "I designed, developed, and deployed Android apps with my classmates during my time in the Mobile Developers of Berkeley club. My biggest apps (and ventures in entrepreneurship) were YearBook and NearMe. One cool experience was that our YearBook team was accepted to Free Ventures (startup accelerator) and we pitched to VCs such as Sequoia and General Catalyst."
   },
   {
-    "id": "yc",
-    "link": "https://www.startupschool.org",
-    "img": "yc.png",
+    "id": "fb",
+    "link": "https://about.facebook.com/",
+    "img": "fb.jpg",
     "accent": "#E16F38",
     "title": "Facebook",
-    "position": "Startup School Fellow",
+    "position": "Software Engineering Intern",
     "dates": "August 2018 - January 2019",
-    "description": "Founded an Airbnb-like peer-to-peer storage network at Cal & UCLA, attracting 200+ bookings over summer and $10k+ in revenue. Created API for Boxlet, enabling cross-platform functionality between iOS, Android, and web users, doubling bookings and users. Solidified competitive price points by writing web scripts to scrape 200+ storage facility sites and benchmark their cost/sq. foot. Attended weekly sessions with a Y-Combinator mentor and refined our product, messaging, and growth strategies.",
-    "business_skills": "Customer Discovery & Interviews, Marketing Strategy, Competitive Analysis, Ad Campaigns, Marketing Collateral Design, Customer Support, ",
-    "technical_skills": "HTML, CSS, JS, Node.JS, Google APIs, FB APIs, Stripe API, Heroku, Firebase, Business Process Automation"
+    "description": "I interned on the e2e authorization team at Facebook. My intern project was to create a new mechanism of granting ACL access that reduced our attack surface by issuing temporary access and renewed based on calculated utilization threshold."
   },
   {
-    "id": "sage",
-    "link": "https://www.sageintacct.com",
+    "id": "via",
+    "link": "https://www.linkedin.com/company/via-app/",
     "img": "sage.png",
     "accent": "#22da27",
     "title": "Via",
-    "position": "Demand Generation Intern",
-    "dates": "May 2018 - Present",
-    "description": "Increased average call connect rate of 38 telemarketers from 5% to 12% by developing OpptyCall, a descriptive & prescriptive artificial intelligence that customizes telemarketer calling schedules. Reduced annual lead prospecting costs by $150K and improved lead quality by 23% by building a lead-qualification machine learning model. Increased opportunity production by 167% by (1) identifying lead-scoring changes that incorrectly prioritized leads, (2) identifying underperforming PPL vendors by vertical, (3) proposing telemarketer hiring schedules based on attrition and productivity curves",
-    "business_skills": "Data analysis, Marketo, Adwords, Google Analytics, Microsoft Excel, Salesforce, Presentation Skills",
-    "technical_skills": "HTML, CSS, DJango, Python, R, Heroku, Batch, FTP libraries, Salesforce API, LinkedIn API, PyAutoGUI, Node.JS, Express.JS, Chart.JS, CryptoJS, VBA"
+    "position": "CTO / Co-Founder",
+    "dates": "August 2016 - December 2018",
+    "description": "I co-founded The Via App to help solve the problem of reliable contact synchronization. This was my first entrepreneurial experience and I learned how to manage a development team, iterate on business strategies/product design, and hustle to get our very first customers. We decided to sunset the project after ~2 years."
   },
   {
     "id": "campaign",
@@ -59,11 +55,9 @@
     "img": "campaign.jpg",
     "accent": "#030d73",
     "title": "Workday",
-    "position": "Campaign Manager",
+    "position": "Software Engineering Intern (Mobile/Security)",
     "dates": "February 2018 - April 2018",
-    "description": "Senate Campaign running on three platforms: Improving transportation on campus, increasing accessibilty of resources for start-ups, and creating more opportunities for professional development. Led much of the creative process automated email farming to amass over 400 votes.",
-    "business_skills": "Digital Video Production, Speech/Script writing",
-    "technical_skills": "HTML, CSS, JS, Responsive Web Design, Bash Scripting, System Macros, Final Cut Pro"
+    "description": "I interned at Workday as part of the Next team. I worked on a verifiable credentials blockchain application and implemented security protocols, culiminating in a mobile MVP TODO, I implemented complex cryptography schemes such as Camenisch-Lysyanskaya group signatures . Created Java Spring REST microservice + Android app (leveraging mobile enclaves)."
   },
   {
     "id": "mgames",
@@ -73,116 +67,6 @@
     "title": "Yahoo",
     "position": "Business Development Intern",
     "dates": "January 2018 - April 2018",
-    "description": "Berkeley-Haas start-up providing business simulation games for higher education. Tested product in business simulations, as well as performed research on higher education institutions through speaking with department heads in order to better design and tailor web-based content.",
-    "business_skills": "Marketing Collateral Design, Customer Research, UX Research",
-    "technical_skills": "HTML, Web Design"
-  },
-  {
-    "id": "illumix",
-    "link": "https://illumix.com",
-    "img": "illumix.png",
-    "accent": "#469CE9",
-    "title": "Illumix",
-    "position": "Marketing Intern",
-    "dates": "July 2017 - October 2017",
-    "description": "Illumix provides augmented reality tech as a gaming studio to bring fandom worlds to life by partnering with the relevant IP owners. Increased recruiting awareness by designing 15+ design assets for a recruiting fair and developed additional assets for the landing page. Finalized company logo amongst 18 different propositions.",
-    "business_skills": "Creative Design, Photoshop",
-    "technical_skills": null
-  },
-  {
-    "id": "lsvp",
-    "link": "https://lsvp.com",
-    "img": "lightspeed.png",
-    "accent": "#ed6d5b",
-    "title": "Lightspeed",
-    "position": "Summer Fellow",
-    "dates": "June 2017 - August 2017",
-    "description": "Won a $65,000 grant from Lightspeed to build an Amazon Alexa-based assistant for dementia patients to remember their medication. Increased market segment awareness by generating 35+ hours of customer interviews and 200 reviews through marketing strategies. Managed product development using customer interviews to optimize and add 14 features utilizing HTML/CSS, Node.JS/JS skills. Worked with UCSF and QB3 to obtain Institutional Review Board backing and enable usage of product within assisted living facilities.",
-    "business_skills": "Customer Discovery, Promotional Marketing & Design, Adwords, Analytics, Product Management, Decking",
-    "technical_skills": "HTML, CSS, JS, Voice APIs, Hardware Configuration"
-  },
-  {
-    "id": "memlabs",
-    "link": "http://memory-labs.com/",
-    "img": "memlabs.jpg",
-    "accent": "#0b588a",
-    "title": "Memory Labs",
-    "position": "Co-Founder, CFO",
-    "dates": "February 2017 - December 2017",
-    "description": "Won a $65,000 grant from Lightspeed to build an Amazon Alexa-based assistant for dementia patients to remember their medication. Increased market segment awareness by generating 35+ hours of customer interviews and 200 reviews through marketing strategies. Managed product development using customer interviews to optimize and add 14 features utilizing HTML/CSS, Node.JS/JS skills. Worked with UCSF and QB3 to obtain Institutional Review Board backing and enable usage of product within assisted living facilities.",
-    "business_skills": "Customer Discovery, Promotional Marketing & Design, Adwords, Analytics, Product Management, Decking",
-    "technical_skills": "HTML, CSS, JS, Voice APIs, Hardware Configuration"
-  },
-  {
-    "id": "intero",
-    "link": "http://ajaymerchia.realscout.com/",
-    "img": "intero.jpg",
-    "accent": "#57104b",
-    "title": "Intero",
-    "position": "Real Estate Agent",
-    "dates": "October 2016 - Present",
-    "description": "Sold $5.25mn worth of houses around the Bay Area in a 2-year period after studying for and attaining license in October of 2016. Cut offer closing period by 25% over industry average (28-day close) by leveraging my network of escrow, lending, & insurance agents. Maintained 100% callback rate for submitted client offers by pricing accurately using weighted regression on 1k+ similar transactions. Sourced over 180 contacts and 14 qualified leads by strategically posting 2000+ flyers and talking to clients at 15+ community events",
-    "business_skills": "Data Analysis, Marketing, Public Speaking, Negotiation, Salesmanship",
-    "technical_skills": "Python, Data Analysis, Adobe Photoshop, Web Design"
-  },
-  {
-    "id": "agf",
-    "link": "https://ucbvotes.weebly.com",
-    "img": "agf.jpg",
-    "accent": "#1e4280",
-    "title": "AGF",
-    "position": "Campus Ambassador",
-    "dates": "October 2016 - April 2017",
-    "description": "As a Vote Everywhere Ambassador of the Andrew Goodman Foundation, I worked to host California Secretary of State Alex Padilla, to speak on the importance of voter registration to over 400 students. I also arranged for ballot boxes at Cal and obtained NSLVE enrollment for the school. Registered 200+ students for the 2016 election.",
-    "business_skills": "Networking, Event Planning, Writing",
-    "technical_skills": "Web Design"
-  },
-  {
-    "id": "azaad",
-    "link": "https://www.facebook.com/ucbazaad/",
-    "img": "azaad.jpg",
-    "accent": "#f5c933",
-    "title": "Azaad",
-    "position": "Captain",
-    "dates": "September 2016 - Present",
-    "description": "UC Berkeley Azaad is Berkeley's nationally-ranked collegiate fusion dance team. Raised over $30k with 100+ cold emails to fund national trips by fielding performances at 40+ weddings, marathons, and birthdays. Choreographed 15-foot basket toss of teammate and human helicopter maneuver to win national championships among 70+ teams. Supported team of 26 by planning 7-day dance camp to develop camaraderie; Achieved record 10% churn through year of captainship",
-    "business_skills": "Leadership, Fundraising, Promotional Marketing",
-    "technical_skills": "Final Cut Pro, Motion, Excel, Adobe Audition"
-  },
-  {
-    "id": "freev",
-    "link": "http://freeventures.org/",
-    "img": "freev.png",
-    "accent": "#32004b",
-    "title": "Free Ventures",
-    "position": "Spring 2017 Batch",
-    "dates": "February 2017 - May 2017",
-    "description": "Berkeley-based accelerator program located at The House providing students with the resources to grow their ideas and innovate. I attended weekly networking sessions with professionals in the technology and medical sectors for industry perspective as a part of Memory Labs. Fine-tuned the craft of creating pitch decks with program coordinators with over 40 hours of decking, and ended up pitching to VC firms, including Grelock Partners, Sequoia, and KPCB.",
-    "business_skills": "Decking, Networking",
-    "technical_skills": null
-  },
-  {
-    "id": "asuc",
-    "link": "",
-    "img": "asuc.jpg",
-    "accent": "#183e6c",
-    "title": "ASUC Offices",
-    "position": "Resources Coordinator",
-    "dates": "February 2017 - May 2017",
-    "description": "I was a part of both Senator Chris Yamas' office, as well as the Financial Wellness Commission. During my time, I worked on an ASUC transfer student amendment which would increase their representation in student government. Additionally, I wrote, lobbied, and got a bill passed that would require that incoming students complete a basic financial literacy module.",
-    "business_skills": "Networking, Public Speaking",
-    "technical_skills": null
-  },
-  {
-    "id": "peercourt",
-    "link": "",
-    "img": "scales.jpg",
-    "accent": "#00811e",
-    "title": "Peer Court",
-    "position": "Juvenile Attorney",
-    "dates": "March 2014 - April 2017",
-    "description": "Justice program with County’s Probation Department working to process dispositional hearings for minors guilty of misdemeanors. Helped 15+ minors restore themselves and community. Met with offenders/victims to obtain mitigatory/exacerbating circumstances not in the JCR. Determined interventions best suited to stop crime pattern development through restorative justice. Drafted and conducted opening/closing statements, direct/cross exams before a jury of peers and a Superior Court Judge.",
-    "business_skills": "Public Speaking",
-    "technical_skills": null
+    "description": "Berkeley-Haas start-up providing business simulation games for higher education. Tested product in business simulations, as well as performed research on higher education institutions through speaking with department heads in order to better design and tailor web-based content."
   }
 ]
