@@ -65,6 +65,7 @@ $(function() {
     $('.header .caption h3').typed({
         strings: 	[
 					"Developer.",
+                    "Researcher.",
 					"Entrepreneur.",
 					"Guitarist.",
 					"Leader.",
