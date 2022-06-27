@@ -1,15 +1,13 @@
 [
   {
-    "id": "boxlet",
-    "link": "https://www.boxletstorage.com",
-    "img": "boxlet.jpg",
-    "accent": "#fda629",
+    "id": "meta",
+    "link": "https://engineering.fb.com/2022/03/30/security/de-identified-authentication-at-scale/",
+    "img": "meta-logo.jpg",
+    "accent": "#007df3",
     "title": "Meta",
-    "position": "Co-Founder, Product Lead",
-    "dates": "May 2018 - Present",
-    "description": "Founded an Airbnb-like peer-to-peer storage network at Cal & UCLA, attracting 200+ bookings over summer and $10k+ in revenue. Created API for Boxlet, enabling cross-platform functionality between iOS, Android, and web users, doubling bookings and users. Solidified competitive price points by writing web scripts to scrape 200+ storage facility sites and benchmark their cost/sq. foot.",
-    "business_skills": "Customer Discovery & Interviews, Marketing Strategy, Competitive Analysis, Ad Campaigns, Marketing Collateral Design, Customer Support, ",
-    "technical_skills": "HTML, CSS, JS, Node.JS, Google APIs, FB APIs, Stripe API, Heroku, Firebase, Business Process Automation"
+    "position": "Software Engineer",
+    "dates": "July 2020 - Present",
+    "description": "At Meta, I'm one of the core engineers working on Anonymous Credential Service. ACS leverages blind signatures and other cryptographic primitivies to enable de-identified authentication at scale, serving hundreds of thousands of requests per second. One of the coolest experiences I had at Meta was that I co-presented ACS at the Systems@Scale 2022 conference (https://atscaleconference.com/videos/acs-de-identified-authentication-at-scale-shiv-kushwah-haozhi-xiong/), and helped write about it on the Meta Engineering Blog. We actually even received media coverage (https://venturebeat.com/2022/03/30/meta-says-its-anonymous-credentials-service-acs-will-help-reduce-data-collection-activities/ and https://www.infoq.com/news/2022/04/meta-privacy-authentication/)!"
   },
   {
     "id": "sage",

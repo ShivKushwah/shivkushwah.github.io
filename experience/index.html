@@ -218,7 +218,9 @@
               justifiedText.appendChild(elemClass("br"))
 
               justifiedText.appendChild(getBoldElement("Business Skills Used: "))
-              addText(justifiedText, experience.business_skills)
+              if (experience.business_skills) {
+                addText(justifiedText, experience.business_skills)
+              }
 
               if (experience.technical_skills) {
                 justifiedText.appendChild(elemClass("br"))
