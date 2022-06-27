@@ -63,7 +63,7 @@ $(function() {
 
     // typejs
 		$('.header .caption h3').typed({
-        strings: 	["Professional.", "Leader."],
+        strings: 	["Developer.", "Leader."],
         loop: true,
         startDelay: 1000,
         backDelay: 1000,
