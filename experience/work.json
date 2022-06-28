@@ -12,7 +12,7 @@
   {
     "id": "learn",
     "link": "http://people.eecs.berkeley.edu/~sseshia/",
-    "img": "learn.jpg",
+    "img": "learn.png",
     "accent": "#000000",
     "title": "Learn & Verify",
     "position": "Student Researcher",
@@ -32,41 +32,41 @@
   {
     "id": "fb",
     "link": "https://about.facebook.com/",
-    "img": "fb.jpg",
-    "accent": "#E16F38",
+    "img": "fb.png",
+    "accent": "#007df3",
     "title": "Facebook",
     "position": "Software Engineering Intern",
-    "dates": "August 2018 - January 2019",
+    "dates": "May 2019 - August 2019",
     "description": "I interned on the e2e authorization team at Facebook. My intern project was to create a new mechanism of granting ACL access that reduced our attack surface by issuing temporary access and renewed based on calculated utilization threshold."
   },
   {
     "id": "via",
     "link": "https://www.linkedin.com/company/via-app/",
-    "img": "sage.png",
-    "accent": "#22da27",
+    "img": "via.png",
+    "accent": "#9504f6",
     "title": "Via",
     "position": "CTO / Co-Founder",
     "dates": "August 2016 - December 2018",
     "description": "I co-founded The Via App to help solve the problem of reliable contact synchronization. This was my first entrepreneurial experience and I learned how to manage a development team, iterate on business strategies/product design, and hustle to get our very first customers. We decided to sunset the project after ~2 years."
   },
   {
-    "id": "campaign",
-    "link": "http://sharmaishan.com/campaign/campaign.html",
-    "img": "campaign.jpg",
-    "accent": "#030d73",
+    "id": "workday",
+    "link": "https://forms.workday.com/en-us/other/innovation-vi-portable-profiling-credentialing/form.html?step=step1_default",
+    "img": "workday-logo.png",
+    "accent": "#e58305",
     "title": "Workday",
     "position": "Software Engineering Intern (Mobile/Security)",
-    "dates": "February 2018 - April 2018",
+    "dates": "May 2018 - August 2018",
     "description": "I interned on the Workday Next Team and worked on a verifiable credentials blockchain application. I implemented security protocols and leveraged mobile hardware enclaves to create a MVP Android Blockchain Wallet for the protocol. As part of this project, I contributed to an open source crypto library and merged a PR!"
   },
   {
-    "id": "mgames",
-    "link": "https://www.marketgames.io",
-    "img": "mgames.jpg",
-    "accent": "#2574a9",
+    "id": "yahoo",
+    "link": "https://www.yahoo.com/",
+    "img": "yahoo-logo.png",
+    "accent": "#5721cb",
     "title": "Yahoo",
-    "position": "Business Development Intern",
-    "dates": "January 2018 - April 2018",
-    "description": "Berkeley-Haas start-up providing business simulation games for higher education. Tested product in business simulations, as well as performed research on higher education institutions through speaking with department heads in order to better design and tailor web-based content."
+    "position": "Software Engineering Intern (Backend)",
+    "dates": "May 2017 - August 2017",
+    "description": "I interned on the Tripod Pixel Team (Flickr backend) and learned how to write server code in a production environment. I learned Java Spring and implemented a unique media ID generator REST microservice. I additionally conducted and presented a data analysis of cost vs performance of different compression algorithms, and my recommended algorithm is now actually the default for photo compression."
   }
 ]
