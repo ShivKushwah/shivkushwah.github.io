@@ -12,8 +12,8 @@
   {
     "img": "../img/logos/apt.png",
     "bw": true,
-    "title": "Anonymous Credential Service",
-    "description": "At Meta, I'm one of the core engineers working on ACS. This service leverages blind signatures and other cryptographic primitivies to enable de-identified authentication at scale, serving hundreds of thousands of requests per second.\n\n I've worked all across the ACS codebase, including the C++ backend service, the Android and iOS Mobile SDKs, operational infrastrcture (e.g. alerting framework), and user portal.\n\n I co-presented ACS at the Systems@Scale 2022 conference, and helped write about it on the Meta Engineering Blog.",
+    "title": "ACS",
+    "description": "At Meta, I'm one of the core engineers working on Anonymous Credential Service (ACS). This service leverages blind signatures and other cryptographic primitivies to enable de-identified authentication at scale, serving hundreds of thousands of requests per second.\n\n I've worked all across the ACS codebase, including the C++ backend service, the Android and iOS Mobile SDKs, operational infrastrcture (e.g. alerting framework), and user portal.\n\n I co-presented ACS at the Systems@Scale 2022 conference, and helped write about it on the Meta Engineering Blog.",
     "status": "Started July 2020",
     "languages": ["cpp", "java", "objc", "python"],
     "is_private": false,
@@ -22,7 +22,7 @@
   },
   {
     "img": "../img/logos/yearbook.png",
-    "title": "Yearbook - Android App",
+    "title": "Yearbook",
     "description": "YearBook is a cross-platform photo-a-day app that enables convenient documentation of activities in preschool classrooms.\n\n I helped build the Android App and we were able to deploy to the Google Play Store. Our team was eventually accepted to Free Ventures (startup accelerator) and pitched to VCs such as Sequoia and General Catalyst.",
     "status": "Started May 2017",
     "languages": ["java"],
