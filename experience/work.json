@@ -7,7 +7,7 @@
     "title": "Meta",
     "position": "Software Engineer",
     "dates": "July 2020 - Present",
-    "description": "At Meta, I'm one of the core engineers working on Anonymous Credential Service. ACS leverages blind signatures and other cryptographic primitivies to enable de-identified authentication at scale, serving hundreds of thousands of requests per second. One of the coolest experiences I had at Meta was that I co-presented ACS at the Systems@Scale 2022 conference (tinyurl.com/5wz6my52), and helped write about it on the Meta Engineering Blog. We actually even received media coverage (tinyurl.com/eer8rhxn and tinyurl.com/4fdc2x5n)!"
+    "description": "At Meta, I'm one of the core engineers working on Anonymous Credential Service. ACS leverages blind signatures and other cryptographic primitivies to enable de-identified authentication at scale, serving hundreds of thousands of requests per second. One of the coolest experiences I had at Meta was that I co-presented ACS at the <a href=\"https://atscaleconference.com/videos/acs-de-identified-authentication-at-scale-shiv-kushwah-haozhi-xiong/\" style=\"color: #0000EE\">Systems@Scale 2022 Conference</a>, and helped write about it on the <a href=\"https://engineering.fb.com/2022/03/30/security/de-identified-authentication-at-scale/\" style=\"color: #0000EE\">Meta Engineering Blog</a>. We actually even received media coverage <a href=\"https://venturebeat.com/business/meta-says-its-anonymous-credentials-service-acs-will-help-reduce-data-collection-activities/\" style=\"color: #0000EE\">link</a> and <a href=\"https://www.infoq.com/news/2022/04/meta-privacy-authentication/\" style=\"color: #0000EE\">link</a>)!"
   },
   {
     "id": "learn",
@@ -17,7 +17,7 @@
     "title": "Learn & Verify",
     "position": "Student Researcher",
     "dates": "May 2019 - May 2020",
-    "description": "I joined the UC Berkeley Learn & Verify Research Lab under <a href=\"https://people.eecs.berkeley.edu/~sseshia/\" style=\"color: #0000EE\">Professor Sanjit Seshia</a> for the duration of my Master's research. I worked on PSec (a programming language for creating secure distributed systems) and was mentored by Professor Sanjit Seshia, Professor Pramod Subramanyan, and Ankush Desai. I was briefly involved in the lab during undergrad as well where I created an Intel SGX-based Password Manager."
+    "description": "I joined the UC Berkeley Learn & Verify Research Lab under <a href=\"https://people.eecs.berkeley.edu/~sseshia/\" style=\"color: #0000EE\">Professor Sanjit Seshia</a> for the duration of my Master's research. I worked on <a href=\"https://dl.acm.org/doi/10.1145/3433210.3453113\" style=\"color: #0000EE\">PSec</a> (a programming language for creating secure distributed systems) and was mentored by Professor Sanjit Seshia, Professor Pramod Subramanyan, and Ankush Desai. I was briefly involved in the lab during undergrad as well where I created an Intel SGX-based Password Manager. (<a href=\"https://scholar.google.com/citations?user=Lja40ugAAAAJ&hl=en\" style=\"color: #0000EE\">Google Scholar link</a>)"
   },
   {
     "id": "mdb",
@@ -47,7 +47,7 @@
     "title": "Via",
     "position": "CTO / Co-Founder",
     "dates": "August 2016 - December 2018",
-    "description": "I co-founded The Via App to help solve the problem of reliable contact synchronization. This was my first entrepreneurial experience and I learned how to manage a development team, iterate on business strategies/product design, and hustle to get our very first customers. We decided to sunset the project after ~2 years."
+    "description": "I co-founded The Via App to help solve the problem of reliable contact synchronization. This was my first entrepreneurial experience and I learned how to manage a development team, iterate on business strategies and product design, and hustle to get our very first customers. We decided to sunset the project after ~2 years."
   },
   {
     "id": "workday",
