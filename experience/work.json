@@ -11,13 +11,13 @@
   },
   {
     "id": "learn",
-    "link": "http://people.eecs.berkeley.edu/~sseshia/",
+    "link": "https://scholar.google.com/citations?user=Lja40ugAAAAJ&hl=en",
     "img": "learn.png",
     "accent": "#000000",
     "title": "Learn & Verify",
     "position": "Student Researcher",
     "dates": "May 2019 - May 2020",
-    "description": "I joined the UC Berkeley Learn & Verify Research Lab under Professor Sanjit Seshia for the duration of my Master's research. I worked on PSec (a programming language for creating secure distributed systems) and was mentored by Professor Sanjit Seshia, Professor Pramod Subramanyan, and Ankush Desai. I was briefly involved in the lab during undergrad as well where I created an Intel SGX-based Password Manager."
+    "description": "I joined the UC Berkeley Learn & Verify Research Lab under <a href=\"https://people.eecs.berkeley.edu/~sseshia/\">Professor Sanjit Seshia</a> for the duration of my Master's research. I worked on PSec (a programming language for creating secure distributed systems) and was mentored by Professor Sanjit Seshia, Professor Pramod Subramanyan, and Ankush Desai. I was briefly involved in the lab during undergrad as well where I created an Intel SGX-based Password Manager."
   },
   {
     "id": "mdb",

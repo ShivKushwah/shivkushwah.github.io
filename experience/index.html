@@ -148,6 +148,11 @@
           function addText(e, t) {
             e.appendChild(document.createTextNode(t))
           }
+          function addInnerHtml(e, t) {
+            var p = document.createElement('p')
+            p.innerHTML = t;
+            e.appendChild(p)
+          }
 
           $.getJSON("work.json", function(work) {
             var currRow, currSection
@@ -213,7 +218,7 @@
               justifiedText.style.textAlign = "justify"
               body.appendChild(justifiedText)
 
-              addText(justifiedText, experience.description)
+              addInnerHtml(justifiedText, experience.description)
               justifiedText.appendChild(elemClass("br"))
               justifiedText.appendChild(elemClass("br"))
 
