@@ -20,16 +20,6 @@
     "description": "I joined the UC Berkeley Learn & Verify Research Lab under <a href=\"https://people.eecs.berkeley.edu/~sseshia/\" style=\"color: #0000EE\">Professor Sanjit Seshia</a> for the duration of my Master's research. I worked on <a href=\"https://dl.acm.org/doi/10.1145/3433210.3453113\" style=\"color: #0000EE\">PSec</a> (a programming language for creating secure distributed systems) and was mentored by Professor Sanjit Seshia, Professor Pramod Subramanyan, and Ankush Desai. I was briefly involved in the lab during undergrad as well where I created an Intel SGX-based Password Manager. (<a href=\"https://scholar.google.com/citations?user=Lja40ugAAAAJ&hl=en\" style=\"color: #0000EE\">Google Scholar link</a>)"
   },
   {
-    "id": "mdb",
-    "link": "https://www.mdb.dev",
-    "img": "mdb.jpg",
-    "accent": "#73B9F2",
-    "title": "MDB",
-    "position": "Android Developer",
-    "dates": "Jan 2017 - May 2020",
-    "description": "I designed, developed, and deployed Android apps with my classmates during my time in the Mobile Developers of Berkeley club. My biggest apps (and ventures in entrepreneurship) were YearBook and NearMe. One cool experience was that our YearBook team was accepted to Free Ventures (startup accelerator) and we pitched to VCs such as Sequoia and General Catalyst."
-  },
-  {
     "id": "fb",
     "link": "https://about.facebook.com/",
     "img": "fb.png",
@@ -38,6 +28,16 @@
     "position": "Software Engineering Intern",
     "dates": "May 2019 - August 2019",
     "description": "I interned on the e2e authorization team at Facebook. My intern project was to create a new mechanism of granting ACL access that reduced our attack surface by issuing temporary access and renewed based on calculated utilization threshold."
+  },
+  {
+    "id": "mdb",
+    "link": "https://www.mdb.dev",
+    "img": "mdb.jpg",
+    "accent": "#73B9F2",
+    "title": "MDB",
+    "position": "Android Developer",
+    "dates": "Jan 2017 - May 2020",
+    "description": "I designed, developed, and deployed Android apps with my classmates during my time in the Mobile Developers of Berkeley club. My biggest apps (and ventures in entrepreneurship) were YearBook and NearMe. One cool experience was that our YearBook team was accepted to Free Ventures (startup accelerator) and we pitched to VCs such as Sequoia and General Catalyst."
   },
   {
     "id": "via",
